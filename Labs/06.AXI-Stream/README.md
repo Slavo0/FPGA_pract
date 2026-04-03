@@ -790,7 +790,7 @@ module axis_join_rr
       4'b0100: m_tuser = 2'd2;
       4'b1000: m_tuser = 2'd3;
       default: m_tuser = 2'd0;
-    endcase 
+    endcase
   end
 
   assign s0_tready = m_tready & grant[0];
